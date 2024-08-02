@@ -8,6 +8,4 @@ Use Tree-Sitter language binding to parse mcscript.
 
 # Highlight
 
-Integrate
-[highlight](https://github.com/ulic-youthlic/tree-sitter-mcscript/blob/main/queries/highlights.scm)
-binding with your IDE.
+Integrate highlight binding with your IDE. Please, see [this](https://github.com/ulic-youthlic/tree-sitter-mcscript/wiki/).
