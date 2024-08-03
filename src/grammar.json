@@ -1122,10 +1122,6 @@
       "type": "SEQ",
       "members": [
         {
-          "type": "STRING",
-          "value": "new"
-        },
-        {
           "type": "CHOICE",
           "members": [
             {
@@ -1141,7 +1137,7 @@
                 },
                 {
                   "type": "STRING",
-                  "value": ","
+                  "value": ";"
                 },
                 {
                   "type": "SYMBOL",
@@ -1156,6 +1152,10 @@
             {
               "type": "SEQ",
               "members": [
+                {
+                  "type": "STRING",
+                  "value": "new"
+                },
                 {
                   "type": "STRING",
                   "value": "Array"

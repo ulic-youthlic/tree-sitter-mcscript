@@ -160,10 +160,9 @@ module.exports = grammar({
       ),
     new_array: ($) =>
       seq(
-        "new",
         choice(
-          seq("[", $._expr, ",", $._expr, "]"),
-          seq("Array", "(", $._expr, ",", $._expr, ")")
+          seq("[", $._expr, ";", $._expr, "]"),
+          seq("new", "Array", "(", $._expr, ",", $._expr, ")")
         )
       ),
     square_brackets_array: ($) =>
